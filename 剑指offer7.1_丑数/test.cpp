@@ -24,7 +24,8 @@ public:
 
 int main(){
 
-
+	Solution s;
+	cout<<s.GetUglyNumber_Solution(9)<<endl;
 	system("pause");
 	return 0;
 }
