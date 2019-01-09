@@ -18,10 +18,14 @@ public:
 			if (res[i] == res[t3] * 3)t3++;
 			if (res[i] == res[t5] * 5)t5++;
 		}
-		return res[index - 1];
+		return res[index];
 	}
 };
-
+//
+//我的理解：
+//定义了三个指针，分别指向vector中的数字，他们的顺序依次为t2, t3, t5, 如果ret[i]
+//等于他们中的最小的一个，则将相应的t++；重复循环一直到index，则ret[index-1]就是
+//要找的第N个丑数
 int main(){
 
 	Solution s;
