@@ -18,7 +18,7 @@ public:
 			if (res[i] == res[t3] * 3)t3++;
 			if (res[i] == res[t5] * 5)t5++;
 		}
-		return res[index];
+		return res[index-1];
 	}
 };
 //
